@@ -3,6 +3,20 @@
 <header>
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
 </header>
+<script src="interation.js"></script>
+<link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<!-- 引入bootstrap-table样式 -->
+<link href="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
+<!-- jquery及bootstrapjs -->
+<script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- bootstrap-table.min.js -->
+<script src="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+<!-- 引入中文语言包 -->
+<script src="https://cdn.bootcss.com/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
+
+
 
 <body>
     <div class="webHeader">
@@ -94,10 +108,21 @@
     <div class="zonghe">
         综合 >
     </div>
-    <div class="cardLayout" style="margin: 10px 0px">
-        <table width="100%" id="record2"></table>
+    <div class="block163">
+        <a href="/search.html">
+            <div  class="in163zonghe">
+                <img src="https://file.ipadown.com/tophub/assets/images/media/163.com.png_160x160.png" width="25" height="25">
+                网易新闻
+            </div>
+        </a>
+        <div class="news163Table">
+            <table id="record163">
+            </table>
+        </div>
     </div>
-    <script src="interation.js"></script>
+    <!-- <div class="cardLayout" >
+        <table id="record2"></table>
+    </div> -->
 </body>
 
 </html>
