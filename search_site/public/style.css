@@ -1,0 +1,182 @@
+html, body, div, ul, li, ol, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/* 输入框 */
+.inputSquare {
+    position: absolute;
+    left: 25%;
+    right: 50%;
+    top: 7px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 621px;
+    height: 45px;
+    border: none;
+    background-color: rgb(221, 221, 221);
+    box-shadow: none;
+    color: rgb(112, 112, 112);
+    font-size: 14px;
+    line-height: 34px;
+    transition: all 0.2s;
+}
+
+.inputSquare:hover {
+    position: absolute;
+    left: 25%;
+    right: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 621px;
+    height: 45px;
+    border-color: #000;
+    background-color: rgb(221, 221, 221);
+    box-shadow: none;
+    color: rgb(112, 112, 112);
+    font-size: 14px;
+    line-height: 34px;
+    transition: all 0.2s;
+}
+
+/* 查询按钮 */
+.form-submit {
+    position: absolute;
+    top: 7px;
+    right: 32%;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 47px;
+    border: none;
+    border-radius: 2px;
+    background: #00a1d6;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    position: absolute;
+    right: 32%;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 47px;
+    border: none;
+    border-radius: 2px;
+    background: #00b5e5;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+
+.search {
+    width: 621px;
+    height: 45px;
+}
+
+/* 背景颜色 */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+table, td, th {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 135px;
+    height: 50px;
+    position: relative;
+    top: 6px;
+    margin-right: 12px;
+    cursor: pointer;
+    background-color: #F7F8FA;
+    border-radius: 3px;
+    float: left;
+}
+
+.webHeader {
+    height: 64px;
+    color: rgba(255,255,255,1);
+    transition: background-color .2s;
+    position: relative;
+}
+
+/* 导航栏头 */
+.navigation {
+    height: 52px;
+    background:rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
+/* 导航栏首页 */
+.homePage {
+    position: absolute;
+    top: 85px;
+    left: 434px;
+    width: 80px;
+    height: 30px;
+    border-bottom: 3px solid black;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+/* 网易新闻 */
+.news163Page {
+    position: absolute;
+    top: 85px;
+    left: 514px;
+    width: 80px;
+    height: 30px;
+    /* border-bottom: 3px solid black; */
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+/* 看看新闻 */
+.kknewsPage {
+    position: absolute;
+    top: 85px;
+    left: 594px;
+    width: 80px;
+    height: 30px;
+    /* border-bottom: 3px solid black; */
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+/* 搜狐新闻 */
+.sohunewsPage {
+    position: absolute;
+    top: 85px;
+    left: 674px;
+    width: 80px;
+    height: 30px;
+    /* border-bottom: 3px solid black; */
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.chinanewsPage {
+    position: absolute;
+    top: 85px;
+    left: 754px;
+    width: 80px;
+    height: 30px;
+    /* border-bottom: 3px solid black; */
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
