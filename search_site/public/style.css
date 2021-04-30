@@ -304,10 +304,10 @@ table th {
 }
 
 /* 综合栏里的网易新闻模块 */
-.block163 {
+.kknewsblock {
     position: absolute;
     top: 330px;
-    left: 30px;
+    left: 830px;
     color: black;
     width: 700px;
     background-color: rgb(221, 221, 221);
@@ -349,6 +349,57 @@ table th {
 
 .news163Table table td,
 .news163Table table th {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* 综合栏里的看看新闻模块 */
+.block163 {
+    position: absolute;
+    top: 330px;
+    left: 30px;
+    color: black;
+    width: 700px;
+    background-color: rgb(221, 221, 221);
+}
+
+/* 看看新闻模块 */
+.kknewsinzonghe {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color:rgb(0, 0, 0);
+    height: 30px;
+}
+
+.kknewsinzonghe img {
+    border-radius: 12.5px;
+}
+
+/* 看看新闻模块里面装表格的部分 */
+.kknewsTable {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.kknewsTable table {
+    width: 700px;
+}
+
+.kknewsTable table tbody tr th {
+    background-color: rgb(81, 130, 187);
+    color: #fff;
+    border-bottom-width: 0;
+}
+
+.kknewsTable table td {
+    color: #000;
+}
+
+.kknewsTable table td,
+.kknewsTable table th {
     padding: 5px 10px;
     font-size: 12px;
     font-weight: bold;
